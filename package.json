@@ -1,13 +1,16 @@
 {
   "name": "weather",
   "version": "1.0.0",
-  "description": "",
+  "description": "Weather Application built with Node.js and Express",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./src/app.js",
+    "build": "echo 'No build script required for backend'",
+    "test": "echo 'No tests defined'",
     "dev": "nodemon ./src/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vipul Beniwal",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
